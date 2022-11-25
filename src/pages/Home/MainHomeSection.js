@@ -1,13 +1,12 @@
-import React from "react"
-import BookInQuestion from "./BookInQuestion"
+import React from "react";
+import SwipingSection from "./SwipingSection";
 
-const MainHomeSection=()=>{
-return (
-        <div className="App-mainHomeSection">
-                <BookInQuestion /> 
-            </div>
- 
-)
-}
+const MainHomeSection = () => {
+  return (
+    <div className="App-mainHomeSection">
+      <SwipingSection />
+    </div>
+  );
+};
 
-export default MainHomeSection
+export default MainHomeSection;

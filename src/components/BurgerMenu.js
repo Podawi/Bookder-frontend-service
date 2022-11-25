@@ -1,12 +1,12 @@
-import React from "react"
-import burgerMenu from '../assets/burgerMenu.jpg'
+import React from "react";
+import burgerMenu from "../assets/burgerMenu.jpg";
 
-const BurgerMenu =()=> {
-    return (
-        <div className="App-burgerMenu">
-            <img src={burgerMenu}  alt="logoBurgerMenu" />
-        </div>
-    )
-}
+const BurgerMenu = () => {
+  return (
+    <div className="App-icon">
+      <img src={burgerMenu} alt="logoBurgerMenu" />
+    </div>
+  );
+};
 
-export default BurgerMenu
+export default BurgerMenu;

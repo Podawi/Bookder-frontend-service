@@ -1,14 +1,19 @@
-import React from "react"
-import { useHistory } from "react-router-dom"
-import logoNavbar from '../assets/logoNavbar.jpg'
+import React from "react";
+import { useHistory } from "react-router-dom";
+import logoNavbar from "../assets/logoNavbar.jpg";
 
-const Logo =()=> {
-    const history=useHistory()
+const Logo = () => {
+  const history = useHistory();
 
-    return (
-        <div >
-               <img src={logoNavbar}  alt="logoNavbar" onClick={()=>history.push("/")}/>
-        </div>)
-}
+  return (
+    <div className="App-icon">
+      <img
+        src={logoNavbar}
+        alt="logoNavbar"
+        onClick={() => history.push("/")}
+      />
+    </div>
+  );
+};
 
-export default Logo
+export default Logo;

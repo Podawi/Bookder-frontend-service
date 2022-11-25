@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 
-const BookInQuestion=()=>{
-return (
+const BookInQuestion = () => {
+  return (
     <div className="App-bookInQuestion">
-        <p>BookInQuestion</p>
+      <p>BookInQuestion</p>
     </div>
-)
-}
+  );
+};
 
-export default BookInQuestion
+export default BookInQuestion;

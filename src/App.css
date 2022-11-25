@@ -11,16 +11,20 @@
 }
 
 .App-navbar {
-  height: 8vh;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  height: 6vh;
   display: flex;
   justify-content: space-between;
   padding-left: 1vw;
   padding-right: 1vw;
   background-color: #660D0D;
+  padding: 0.5vh
 }
 
 .App-navbar img {
-  height: 8vh;
+  height: 6vh;
 }
 
 .App-burgerMenu { height: 8vh;}
@@ -33,14 +37,42 @@
   transform:scale(1.3)
 }
 
+.App-icon {
+  transition:1s;
+  height: 1vh;
+  }
+
+.App-button {
+  height: 6vh;
+  display: inline-block;
+  border-radius: 50%;  
+  background: transparent;
+  border-color: transparent;
+  /* padding-top: 20vh; */
+  /* margin-top: 20vh; */
+}
+
+.App-button img {
+  border-radius: 50%;
+  height: 6vh;
+}
+
+.App-icon:hover{
+transform:scale(1.1)
+}
+
 .App-bookInQuestion {
   background-color: #660D0D;
-  padding-top: 20%;
-  width: 30vw;
-  /* margin-top: 2%; */
-  color: aliceblue;border-radius: 25px;
+  height: 50vh;
+  width: 15vw;
+  color: aliceblue;
+  border-radius: 25px;
   margin: auto;
-  padding-top: 50vh;
+  margin-top: 20vh;
+  align-items: center;
+  display: flex;
+  justify-content: center; 
+  display: inline-block;
 }
 
 .App-mainHomeSection {
